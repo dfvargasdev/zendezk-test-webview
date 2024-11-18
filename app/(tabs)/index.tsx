@@ -7,6 +7,8 @@ export default function HomeScreen() {
 
   return (
     <View style={styles.container}>
+      <Text>MVP</Text>
+      <Text>WebView Zendesk</Text>
       <Button
         title="Centro de Ayuda"
         onPress={() => navigation.navigate('HelpCenter')}
